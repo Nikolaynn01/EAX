@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            text-align: center;
+            margin: 20px;
+        }
+        #photo {
+            width: 500px;
+            height:450px;
+        }
+        #button {
+
+            margin: 0 auto;
+            display: block;
+            padding: 10px 20px;
+            background-color: goldenrod;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1 id="myH1">Hello ... !Welcome to my simple page!</h1>
+        <img src="https://images.pexels.com/photos/27660060/pexels-photo-27660060/free-photo-of-two-people-in-a-tunnel.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" id="photo">
+        <button onclick="addText()" id="button">Click me</button>
+    </div>
+    <script>
+        function addText(params) {
+            let name = prompt("Enter your name,please!");
+            let header = document.getElementById("myH1");
+            header.textContent = header.textContent.replace("...", name);   
+        }
+    </script>
+</body>
+</html>
