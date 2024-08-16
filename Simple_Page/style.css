@@ -1,0 +1,21 @@
+#container {
+    text-align: center;
+    margin: 20px;
+}
+#photo {
+    border-radius: 15px;
+    width: 700px;
+    height:400px;
+}
+#button {
+
+    margin: 0 auto;
+    display: block;
+    padding: 15px 25px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
