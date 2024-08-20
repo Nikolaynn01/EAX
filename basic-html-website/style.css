@@ -1,0 +1,115 @@
+/* Basic reset for margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General body styling */
+  body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  header {
+    background: grey;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Navigation styling */
+  nav {
+    display: flex;
+    text-align: center;
+    background: #ff00fd;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav input[type="search"] {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  nav input[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    background: #555;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  nav input[type="submit"]:hover {
+    background: #666;
+  }
+  
+  /* Main content styling */
+  main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  article {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  aside {
+    flex: 1;
+    background: #ff00fd;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  aside ul {
+    list-style: none;
+  }
+  
+  aside ul li {
+    margin-bottom: 10px;
+  }
+  
+  aside ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Footer styling */
+  footer {
+    background: grey;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
