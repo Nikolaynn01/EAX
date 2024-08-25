@@ -8,7 +8,7 @@ app.get("/test", function(req, res) {
 app.post("test/eax", function(req, res) {
     console.log(req.headers);
     console.log("post received");
-    res.send("oppa, postnela ashxatum");  
+    res.send("kjhkjhk");  
 })
 
 app.listen(4450);
